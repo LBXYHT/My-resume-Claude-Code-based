@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimal Resume - 个人简历</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="#" class="nav-logo">Resume</a>
+    <ul class="nav-links">
+      <li><a href="#about">关于</a></li>
+      <li><a href="#skills">技能</a></li>
+      <li><a href="#projects">项目</a></li>
+      <li><a href="#contact">联系</a></li>
+    </ul>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Your Name</h1>
+      <p class="subtitle">Full Stack Developer</p>
+      <p class="tagline">热爱技术与设计，追求极简美学</p>
+    </div>
+    <div class="scroll-indicator">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 class="section-title fade-in">关于我</h2>
+    <div class="about-card fade-in">
+      <div class="about-avatar">Y</div>
+      <div class="about-info">
+        <h3>Your Name</h3>
+        <p class="role">Full Stack Developer</p>
+        <p class="bio">一名热爱编程的开发者，专注于构建优雅、高效的Web应用。拥有多年全栈开发经验，熟悉现代前端框架和后端技术。注重代码质量和用户体验，追求极简而强大的解决方案。</p>
+        <div class="about-details">
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            your.email@example.com
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            +86 123 4567 8900
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            中国 · 北京
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 class="section-title fade-in">技能</h2>
+    <div class="skills-grid">
+      <div class="skill-category fade-in">
+        <h4>前端开发</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML/CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Vue</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">Tailwind</span>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <h4>后端开发</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Go</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Redis</span>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <h4>工具 & 其他</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">CI/CD</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="section-title fade-in">项目</h2>
+    <div class="projects-grid">
+      <div class="project-card fade-in">
+        <h4>项目名称一</h4>
+        <p>一个简洁高效的Web应用程序，采用现代化的技术栈构建，提供流畅的用户体验和优异的性能表现。</p>
+        <div class="project-tech">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+        </div>
+        <a href="#" class="project-link">
+          查看项目
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="project-card fade-in">
+        <h4>项目名称二</h4>
+        <p>专注于数据可视化的仪表板项目，支持实时数据更新和多种图表展示方式，帮助用户更好地理解数据。</p>
+        <div class="project-tech">
+          <span>Vue</span>
+          <span>D3.js</span>
+          <span>Python</span>
+        </div>
+        <a href="#" class="project-link">
+          查看项目
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="project-card fade-in">
+        <h4>项目名称三</h4>
+        <p>移动端优先的响应式网站，采用渐进式Web应用技术，支持离线访问和推送通知功能。</p>
+        <div class="project-tech">
+          <span>PWA</span>
+          <span>TypeScript</span>
+          <span>Firebase</span>
+        </div>
+        <a href="#" class="project-link">
+          查看项目
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="project-card fade-in">
+        <h4>项目名称四</h4>
+        <p>开源的CLI工具，用于自动化日常开发任务，提高团队开发效率和代码一致性。</p>
+        <div class="project-tech">
+          <span>Go</span>
+          <span>Docker</span>
+          <span>GitHub Actions</span>
+        </div>
+        <a href="#" class="project-link">
+          查看项目
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-title fade-in">联系我</h2>
+    <div class="contact-content fade-in">
+      <p>对我的工作感兴趣？请随时联系我，期待与您的合作机会。</p>
+      <a href="mailto:your.email@example.com" class="contact-email">your.email@example.com</a>
+      <div class="contact-links">
+        <a href="#" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <a href="#" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="#" class="contact-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M4 4l11.733 16h4.267l-11.733 -16z"/>
+            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/>
+          </svg>
+          <span>个人网站</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
