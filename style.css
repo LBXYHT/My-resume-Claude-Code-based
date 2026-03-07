@@ -273,6 +273,16 @@ section {
   stroke: var(--text-secondary);
 }
 
+.email-link {
+  color: #2563eb;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.email-link:hover {
+  opacity: 0.7;
+}
+
 /* Skills Section */
 .skills-grid {
   display: grid;
