@@ -15,6 +15,7 @@
     <a href="#" class="nav-logo">Resume</a>
     <ul class="nav-links">
       <li><a href="#about">关于</a></li>
+      <li><a href="#education">教育</a></li>
       <li><a href="#skills">技能</a></li>
       <li><a href="#projects">项目</a></li>
       <li><a href="#contact">联系</a></li>
@@ -75,6 +76,30 @@
     </div>
   </section>
 
+  <!-- Education Section -->
+  <section id="education">
+    <h2 class="section-title fade-in">教育经历</h2>
+    <div class="education-list">
+      <div class="education-item fade-in">
+        <div class="education-header">
+          <h4>计算机工程</h4>
+          <span class="education-period">2024.09 - 2026.06</span>
+        </div>
+        <p class="education-school">纽约大学 NYU Tandon School of Engineering</p>
+        <p class="education-desc">硕士 | GPA: 3.92/4.0 | 主修课程：超大规模集成电路系统设计导论、计算机系统架构、操作系统、实时嵌入式系统、互联网架构协议、网络设计与算法</p>
+      </div>
+      <div class="education-item fade-in">
+        <div class="education-header">
+          <h4>计算机工程</h4>
+          <span class="education-period">2020.09 - 2024.07</span>
+        </div>
+        <p class="education-school">香港中文大学（深圳）理工学院</p>
+        <p class="education-honor">院长荣誉名单（专业前10%，2022-2023学年）</p>
+        <p class="education-desc">本科 | 主修课程：数据结构、计算机体系结构、操作系统、微处理器与计算机系统、离散数学、软件工程、数据库系统</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Skills Section -->
   <section id="skills">
     <h2 class="section-title fade-in">技能</h2>
@@ -94,10 +119,11 @@
         <h4>工具 & 其他</h4>
         <div class="skill-tags">
           <span class="skill-tag">Git</span>
-          <span class="skill-tag">Docker</span>
-          <span class="skill-tag">AWS</span>
-          <span class="skill-tag">Figma</span>
-          <span class="skill-tag">CI/CD</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">XCode</span>
+          <span class="skill-tag">XCTest</span>
+          <span class="skill-tag">XCUITest</span>
+          <span class="skill-tag">GDB</span>
         </div>
       </div>
     </div>
@@ -123,14 +149,15 @@
         </a>
       </div>
       <div class="project-card fade-in">
-        <h4>项目名称二</h4>
-        <p>专注于数据可视化的仪表板项目，支持实时数据更新和多种图表展示方式，帮助用户更好地理解数据。</p>
+        <h4>多源内容聚合搜索平台</h4>
+        <p>基于SpringBoot+Vue的聚合搜索平台，支持通过HttpRequest获取外部文章，通过jsoup实时请求bing搜索借口获取图片。通过搭建ElasticSearch+IK分词器代替MySQL模糊查询，优化搜索性能和搜索准度。</p>
         <div class="project-tech">
+          <span>SpringBoot</span>
           <span>Vue</span>
-          <span>D3.js</span>
-          <span>Python</span>
+          <span>ElasticSearch</span>
+          <span>MySQL</span>
         </div>
-        <a href="#" class="project-link">
+        <a href="https://github.com/LBXYHT/Multi-source-Aggregated-search" class="project-link">
           查看项目
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
             <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -138,12 +165,13 @@
         </a>
       </div>
       <div class="project-card fade-in">
-        <h4>项目名称三</h4>
-        <p>移动端优先的响应式网站，采用渐进式Web应用技术，支持离线访问和推送通知功能。</p>
+        <h4>全栈电子商务网站开发</h4>
+        <p>基于SpringBoot+Angular的电商购物车应用，通过实施JWT，OAuth2并集成Stripe API保证用户信息和支付安全。</p>
         <div class="project-tech">
-          <span>PWA</span>
+          <span>SpringBoot</span>
+          <span>Angular</span>
+          <span>MySQL</span>
           <span>TypeScript</span>
-          <span>Firebase</span>
         </div>
         <a href="#" class="project-link">
           查看项目
